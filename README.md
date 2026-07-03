@@ -73,9 +73,3 @@ app/build/outputs/apk/debug/app-debug.apk
 - Plan de estudio por tema y duración.
 - Resumen de texto/documentos pegados.
 - Recomendaciones para organizar tareas.
-
-## Explicación breve para exposición
-
-La app está construida de forma nativa en Android Studio con Kotlin y Jetpack Compose. La interfaz está separada en pantallas y componentes reutilizables. La lógica de cada pantalla vive en ViewModels, mientras que la conexión con Gemini está aislada en `remote` y `repository`. La API Key se maneja desde `local.properties` y se usa mediante `BuildConfig.GEMINI_API_KEY`, sin exponerla en la interfaz ni en logs.
-
-ALICE puede responder preguntas, generar flashcards, resumir texto, crear planes de estudio y ayudar a organizar tareas con recomendaciones claras en español.
